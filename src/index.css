@@ -17,18 +17,34 @@
   position: relative;
   background: #000;
 }
-#gradient-bg{
-  background-image: url('../public/assets/shadow.png');
-  height: 100vh;
-  width: 100%;
-position: absolute;
-top:-30px;
-  background-repeat: no-repeat;
-  background-size: contain;
+/* Position anchor on the text wrapper */
+.impact-content {
+  position: relative;
 }
+
+/* The blue glow behind ₹1.21 Crore section — now anchored to the content,
+   not the viewport, so it stays consistent at every screen size. */
+.impact-content::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 115%;
+  height: 115%;
+  background-image: url('../public/assets/shadow.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
 @media (max-width: 767px) {
-  #gradient-bg {
-    top: 126px;
+  .impact-content::before {
+    width: 95%;
+    height: 135%;
+    background-size: 100% 100%;
   }
 }
 
