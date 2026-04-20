@@ -1,7 +1,6 @@
 {
   "name": "gig-report",
   "version": "1.0.0",
-  "homepage": "https://DevMaheshwari2017.github.io/IDFY-Gig",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

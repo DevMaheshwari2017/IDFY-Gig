@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c97f0da7.css",
+    "main.js": "/static/js/main.28194448.js",
+    "static/media/shadow.png": "/static/media/shadow.39ebd0b20415a3b493c9.png",
+    "static/media/Dots.png": "/static/media/Dots.cc45f9ea1ed09c51f365.png",
+    "static/media/highlight-card.png": "/static/media/highlight-card.5968989019101b0c1a10.png",
+    "static/media/calender.png": "/static/media/calender.43da1461d487e4ca6a08.png",
+    "index.html": "/index.html",
+    "main.c97f0da7.css.map": "/static/css/main.c97f0da7.css.map",
+    "main.28194448.js.map": "/static/js/main.28194448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c97f0da7.css",
+    "static/js/main.28194448.js"
+  ]
+}
